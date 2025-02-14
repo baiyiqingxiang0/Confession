@@ -2,9 +2,9 @@
 
 一个优雅的网页告白项目，通过精美的动画效果和温馨的情话，传达最真挚的感情。
 
-[在线预览](http://www.baiyiqingxiang.online:520/) _(部署后添加链接)_
+[在线预览](http://www.baiyiqingxiang.online:520/)
 
-![预览图](assets/images/preview.jpg) _(可选：添加预览图)_
+![预览图](assets/images/preview.jpg)
 
 ## ✨ 特色功能
 
@@ -139,7 +139,7 @@
 ## 👨‍💻 作者
 
 - 网站 - [http://www.baiyiqingxiang.online]
-- GitHub - [@baiyiqingxiang0]
+- GitHub - [@https://github.com/baiyiqingxiang0]
 - Email - [baiyiqingxiang01@gmail.com]
 
 ---
