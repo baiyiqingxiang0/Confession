@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💝 给你的告白</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Pacifico&family=Great+Vibes&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 主要内容容器 -->
+    <div class="container">
+        <!-- 页面标题 -->
+        <div class="page-title">
+            <h1>💌 给你的告白</h1>
+            <div class="title-decoration">
+                <span>❤</span>
+                <span>❤</span>
+                <span>❤</span>
+            </div>
+        </div>
+
+        <!-- 情话显示区域 -->
+        <div class="love-message">
+            <div class="message-decoration left">❀</div>
+            <p id="message" class="message"></p>
+            <div class="message-decoration right">❀</div>
+        </div>
+        
+        <!-- 按钮组 -->
+        <div class="button-group">
+            <!-- 心形按钮 -->
+            <button id="refresh-btn" class="heart-btn" title="换一句情话">
+                <svg class="heart-icon" viewBox="0 0 32 32">
+                    <path d="M16,28.261c0,0-14-7.926-14-17.046c0-8.565,9.333-11.816,14-4.399
+                             c4.667-7.417,14-4.166,14,4.399C30,20.335,16,28.261,16,28.261z"/>
+                </svg>
+            </button>
+            <!-- 分享按钮 -->
+            <button id="share-btn" class="share-btn" title="分享给好友">
+                <svg class="share-icon" viewBox="0 0 24 24">
+                    <path d="M18,16.08c-0.76,0-1.44,0.3-1.96,0.77L8.91,12.7C8.96,12.47,9,12.24,9,12s-0.04-0.47-0.09-0.7l7.05-4.11
+                           c0.54,0.5,1.25,0.81,2.04,0.81c1.66,0,3-1.34,3-3s-1.34-3-3-3s-3,1.34-3,3c0,0.24,0.04,0.47,0.09,0.7L8.04,9.81
+                           C7.5,9.31,6.79,9,6,9c-1.66,0-3,1.34-3,3s1.34,3,3,3c0.79,0,1.5-0.31,2.04-0.81l7.12,4.16c-0.05,0.21-0.08,0.43-0.08,0.65
+                           c0,1.61,1.31,2.92,2.92,2.92s2.92-1.31,2.92-2.92S19.61,16.08,18,16.08z"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- 3D相册 -->
+        <div class="album-section">
+            <div class="album-container">
+                <div class="album">
+                    <div class="photo-card" style="--i:1">
+                        <img src="assets/images/photo1.jpg" alt="照片1">
+                    </div>
+                    <div class="photo-card" style="--i:2">
+                        <img src="assets/images/photo2.jpg" alt="照片2">
+                    </div>
+                    <div class="photo-card" style="--i:3">
+                        <img src="assets/images/photo3.jpg" alt="照片3">
+                    </div>
+                    <div class="photo-card" style="--i:4">
+                        <img src="assets/images/photo4.jpg" alt="照片4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 留言板开关按钮 -->
+    <button id="message-board-toggle" class="message-board-toggle" title="留言板">
+        <span class="toggle-icon">💕</span>
+    </button>
+
+    <!-- 留言板侧边栏 -->
+    <div class="message-board">
+        <h2>💕 爱的留言板</h2>
+        <div class="message-container">
+            <div class="messages" id="message-list"></div>
+            <div class="message-input">
+                <input type="text" id="name-input" placeholder="你的名字" maxlength="20">
+                <textarea id="message-input" placeholder="写下你的祝福..." maxlength="100"></textarea>
+                <button id="send-btn">发送祝福 💝</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 音乐控制 -->
+    <div class="music-control">
+        <audio id="bgm" loop>
+            <source src="assets/music/love.mp3" type="audio/mpeg">
+        </audio>
+        <button id="music-btn" class="music-btn" title="背景音乐">🎵</button>
+    </div>
+
+    <!-- 飘落的爱心背景 -->
+    <div class="hearts-bg"></div>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
